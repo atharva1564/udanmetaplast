@@ -77,7 +77,7 @@ company/
 ## 📧 Contact Information
 
 The website includes placeholder contact information:
-- **Phone**: +91 98765 43210
+- **Phone**: +91 9921989821
 - **Email**: info@udanmetaplast.com
 - **Address**: Industrial Area, Mumbai, Maharashtra, India
 
