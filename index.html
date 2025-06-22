@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDAN Metaplast - Precision Mould Manufacturing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-blue-600">UDAN Metaplast</div>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 font-semibold">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="products.html" class="text-gray-700 hover:text-blue-600 transition">Products</a>
+                    <a href="services.html" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="index.html" class="block py-2 text-blue-600 font-semibold">Home</a>
+                <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="products.html" class="block py-2 text-gray-700 hover:text-blue-600">Products</a>
+                <a href="services.html" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative h-screen flex items-center justify-center">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 text-center text-white px-4">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Precision Mould Manufacturing</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Specialized in manufacturing high-quality moulds for automotive and luggage industries with cutting-edge technology</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="products.html" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Our Products</a>
+                <a href="services.html" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Introduction -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Welcome to UDAN Metaplast</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We are a leading manufacturer of precision moulds, serving the automotive and luggage industries with excellence and innovation.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cogs text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Precision Engineering</h3>
+                    <p class="text-gray-600">State-of-the-art machinery and skilled craftsmanship for exacting precision in every mould we create.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-industry text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Industry Expertise</h3>
+                    <p class="text-gray-600">Decades of experience in automotive and luggage mould manufacturing with deep industry knowledge.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Quality Assurance</h3>
+                    <p class="text-gray-600">Rigorous quality control processes ensuring every mould meets the highest industry standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Portfolio</h2>
+                <p class="text-xl text-gray-600">Explore our successful projects and mould designs</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+                        <i class="fas fa-car text-4xl text-gray-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Automotive Moulds</h3>
+                        <p class="text-gray-600">Precision moulds for automotive components including dashboards, bumpers, and interior parts.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+                        <i class="fas fa-suitcase text-4xl text-gray-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Luggage Components</h3>
+                        <p class="text-gray-600">Specialized moulds for luggage wheels, handles, and structural components.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+                        <i class="fas fa-tools text-4xl text-gray-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Custom Moulds</h3>
+                        <p class="text-gray-600">Bespoke mould designs tailored to specific client requirements and applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Machinery Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Advanced Machinery</h2>
+                <p class="text-xl text-gray-600">State-of-the-art equipment for precision manufacturing</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-cut text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">Wire Cut</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-cog text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">VMC</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-bolt text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">EDM</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-sandpaper text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">Grinding</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-circle-notch text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">Drilling</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-circle text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">CNC Lathe</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-cogs text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">Milling</h3>
+                </div>
+                <div class="text-center p-4">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-tools text-blue-600"></i>
+                    </div>
+                    <h3 class="font-semibold">Custom Tools</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">UDAN Metaplast</h3>
+                    <p class="text-gray-300 mb-4">Leading manufacturer of precision moulds for automotive and luggage industries.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-blue-400"><i class="fab fa-linkedin"></i></a>  
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-blue-400">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-blue-400">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-300 hover:text-blue-400">Products</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-blue-400">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-blue-400 mr-3"></i>
+                            <span class="text-gray-300">+91 98765 43210</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-400 mr-3"></i>
+                            <span class="text-gray-300">info@udanmetaplast.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-blue-400 mr-3"></i>
+                            <a href="https://www.google.com/maps/place/Udan+Metaplast/@19.9434416,73.7296921,17z/data=!3m1!4b1!4m6!3m5!1s0x3bdd93c3b28db553:0x37762269a62bb1c4!8m2!3d19.9434416!4d73.7296921!16s%2Fg%2F11w4t__6z0?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-gray-300 hover:text-blue-400 transition">Plot no H146/1/1, near Nashik, MIDC Ambad, Nashik, Maharashtra 422010</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-300">&copy; 2024 UDAN Metaplast. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
