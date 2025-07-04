@@ -75,12 +75,12 @@ html {
 
 .service-icon:hover {
     transform: scale(1.1);
-    background-color: #dbeafe;
+    background-color: var(--accent-green);
 }
 
 /* Navigation active state */
 .nav-active {
-    color: #2563eb;
+    color: var(--primary-brown);
     font-weight: 600;
 }
 
